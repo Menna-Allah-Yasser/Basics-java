@@ -10,7 +10,7 @@ public class D02L07{
 		StringTokenizer tokens=new StringTokenizer(sen);
 		while(tokens.hasMoreTokens()){
 			String token = tokens.nextToken();
-			if(Pattern.matches("A.*" , token)){
+			if(Pattern.matches("(a+)" , token)){
 				System.out.println(token);
 			}
 		}
