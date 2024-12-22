@@ -19,6 +19,7 @@ String[] players =
 { "Rafael Nadal", "Novak Djokovic", "Stanislas Wawrinka", "David Ferrer", "Roger Federer",
 "Andy Murray", "Tomas Berdych", "Juan Martin Del Potro", "Richard Gasquet", "John Isner"
 };
+
 List<String> playerList = Arrays.asList(players);
 System.out.println(getBeginWith(playerList, (s) -> s.startsWith("R")));
 System.out.println(getBeginWith(playerList, (s) -> s.contains("D")));
