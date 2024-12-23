@@ -1,4 +1,4 @@
-jar cfm shapes.jar MANIFEST.MF com/mennacode/*.class Test.class
+jar cfm Shapes.jar MANIFEST.MF com/
 
 jar tf shapes.jar
 

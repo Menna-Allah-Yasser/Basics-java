@@ -1,3 +1,5 @@
+package com;
+
 import com.mennacode.Rectangle;
 import com.mennacode.Circle;
 import com.mennacode.Shape;
